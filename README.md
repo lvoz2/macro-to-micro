@@ -1,4 +1,4 @@
-# Macro-to-Micro
+# Macro to Micro
 An educational game that explores the big and small parts of our universe
 
 # Gameplay
