@@ -21,9 +21,9 @@ Game.save = function() {
 Game.loadSave = function() {
 	Game.saves = JSON.parse(atob(localStorage.getItem('mtm-save')));
 }
-Game.setScreen = function(screen) {
+Game.setScreen = function(tab) {
 	$(".screen").removeClass('hidden visible');
 	$(".screen").addClass('hidden');
-	$(screen).addClass('visible');
-	$(screen).removeClass('hidden');
+	$(tab).addClass('visible');
+	$(tab).removeClass('hidden');
 }
